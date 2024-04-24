@@ -117,8 +117,8 @@ div#l1, div#l2, div#l3 {
     border: 5px dashed;
     height: 110px!important;
     margin: 0px 3px 0px 0 !important;
-    width: 255px!important;
-    float: inline-end;
+    width: 64%!important;
+    float: right!important;
     margin-top: -40px!important;
 }
 div#l1 input#u1, div#l3 button {
