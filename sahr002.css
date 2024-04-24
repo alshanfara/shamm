@@ -116,8 +116,8 @@ div#l1, div#l2, div#l3 {
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 14px 0 rgb(0 0 0 / 12%), 0 -14px 14px 0px rgb(0 0 0 / 20%);
     border: 5px dashed;
     height: 110px!important;
-    margin: 0px 2px 0px 0 !important;
-    width: 65%!important;
+    margin: 0px 3px 0px 0 !important;
+    width: 255px!important;
     float: inline-end;
     margin-top: -40px!important;
 }
