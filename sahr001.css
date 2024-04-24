@@ -21,9 +21,9 @@ div#l2 input#pass1, div#l2 input#u2, div#l3 input#pass2, div#l3 input#u3 {
     padding: 0!important;
     float: right;
     margin: 2px 5px 2px 0;
-    border-radius: 0px!important;
-    border: 1px solid #B95777!important;
-    color: #B95777;
+    border-radius: 25px!important;
+    border: 1px solid #b3b3b3 !important;
+    /* color: #B95777; */
 }
 #tlogins .hand.nosel.fl.uzr.borderg {
     border: 2px solid #B95777;
@@ -50,6 +50,9 @@ ul.nav.nav-tabs {
     width: 100%;
     padding: 3px 1px;
     background-image: linear-gradient(90deg,#F5749E 0,#B95777 10%,#8E435B 51%,#B95777 89%,#F5749E 100%);
+    display: flex;
+    align-content: center;
+    flex-direction: column;
 }
 .light{
     background: repeating-linear-gradient(45deg, rgba(255, 255, 255, .8), rgb(255, 255, 255) 100px, #ffffffb0 0, #fff6f699 200px), repeating-linear-gradient(-45deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, .93) 100px, #b95777 0, #ffffffe6 200px);
@@ -111,14 +114,19 @@ div#l1, div#l2, div#l3 {
     background-color: #da678c;
     background-image: -webkit-linear-gradient(332deg,rgb(166 206 214/0%) 25%,transparent 25%,#2b879900 50%,rgba(255,255,255,.2) 50%,rgb(255 255 255) 75%,transparent 75%,transparent) !important;
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 14px 0 rgb(0 0 0 / 12%), 0 -14px 14px 0px rgb(0 0 0 / 20%);
-    border: dashed;
-    height: 75px!important;
-    margin: 0 0px 0px 0 !important;
+    border: 5px dashed;
+    height: 110px!important;
+    margin: 0px 2px 0px 0 !important;
+    width: 65%!important;
+    float: inline-end;
+    margin-top: -40px!important;
 }
 div#l1 input#u1, div#l3 button {
-    width: 51%!important;
+    width: 98%!important;
     margin-top: 4px!important;
-    border-radius: 150px 10px 150px 10px!important;
+    border-radius: 25px!important;
+    border: 0!important;
+    margin: 17px 5px 2px 0!important;
 }
 ul.nav.nav-tabs>li>a {
     color: #fff;
@@ -139,9 +147,10 @@ ul.nav.nav-tabs>li>a {
     align-items: center;
     justify-content: center;
     font-family: "El Messiri", FontAwesome !important;
+    margin-top: 2px;
     }
 div#l2 button, div#l3 button{
-    width: 45%!important;
+    width: 85%!important;
     margin: 3px;
     font-family: "El Messiri", FontAwesome !important;
 }
